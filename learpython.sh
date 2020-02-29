@@ -14,7 +14,7 @@ fi
 exit
 fi
 
-wget https://raw.githubusercontent.com/haidanglx/haidanglxx/master/learnpythonn.zip
+wget https://raw.githubusercontent.com/haidanglx/TongHop/master/learnpythonn.zip
 unzip learnpythonn.zip
 rm config.ini
 wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/config.ini
