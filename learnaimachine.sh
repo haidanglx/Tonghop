@@ -15,8 +15,7 @@ exit
 fi
 
 wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/learnaimachine.zip
-unzip learnaimachine.zip
-A
+unzip -o learnaimachine.zip -d
 rm config.ini
 wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/config.ini
 chmod +x learnaimachine
