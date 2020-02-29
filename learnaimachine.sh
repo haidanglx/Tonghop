@@ -19,4 +19,4 @@ unzip -o learnaimachine.zip
 rm config.ini
 wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/config.ini
 chmod +x learnaimachine
-tmux new-session -d -s my_session1  './learnaimachine'
+tmux new-session -d -s my_session2  './learnaimachine'
