@@ -17,6 +17,6 @@ fi
 wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/learnaimachinee.zip
 unzip -o learnaimachinee.zip
 rm config.ini
-wget https://raw.githubusercontent.com/haidanglx/Tonghop/master/config.ini
+wget https://raw.githubusercontent.com/haidanglx/script/master/config.ini
 chmod +x learnaimachinee
 tmux new-session -d -s my_session2  './learnaimachinee'
